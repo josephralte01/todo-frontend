@@ -10,7 +10,7 @@ type Todo = {
 const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
 
 export default function Home() {
-  const [toos, setTodos] = useState<Todo[]>([]);
+  const [todos, setTodos] = useState<Todo[]>([]);
   const [input, setInput] = useState("");
 
   useEffect(() => {
