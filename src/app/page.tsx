@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-
+import { Todo } from "@/types/todo"; // ✅ Import Todo type properly
 type Todo = {
   _id: string;
   text: string;
