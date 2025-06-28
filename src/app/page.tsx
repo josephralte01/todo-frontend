@@ -2,10 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import { Todo } from "@/types/todo"; // ✅ Import Todo type properly
-type Todo = {
-  _id: string;
-  text: string;
-};
 
 const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
 
