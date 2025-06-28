@@ -8,6 +8,7 @@ export default function Home() {
   const [input, setInput] = useState("");
 
   useEffect(() => {
+    console.log("✅ Client-side Home component mounted");
     fetchTodos();
   }, [fetchTodos]);
 
